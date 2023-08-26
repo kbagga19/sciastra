@@ -1,0 +1,61 @@
+.team_heading {
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 3.5em;
+    font-weight: 900;
+    padding: 3% 0 0 13%;
+    margin-bottom: 0;
+}
+
+.tag_line {
+    font-size: 1.4em;
+    padding-left: 13%;
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.universities {
+    padding: 5% 4% 0 5%;
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+
+.uni_box {
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20vh;
+    margin-bottom: 5%;
+    box-shadow: 13px 11px 45px 7px rgba(184,184,184,1);
+}
+
+.imgs {
+    width: 7vw;
+    height: 12vh;
+}
+
+#profile_box {
+    height: auto;
+    padding-top: 2%;
+}
+
+#mentor_box {
+    height: auto;
+}
+
+#mentor_box button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 3vh;
+
+    background: linear-gradient(90deg, rgba(83, 0, 255, 1) 0%, rgba(231, 172, 204, 1) 100%);
+}

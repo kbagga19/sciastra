@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+}
+
+.logo_section {
+    padding: 1% 0 0 5%;
+    width: 10%;
+}
+
+.logo {
+    height: 8.5vh;
+    border-radius: 50%;
+}
+
+.center_section {
+    width: 70%;
+}
+
+.center_section ul {
+    display: flex;
+    list-style: none;
+}
+
+.center_section ul li {
+    padding: 30px;
+}
+
+.login_btn {
+    padding-top: 2.75%;
+}
+
+.login {
+    width: 4vw;
+    font-size: 0.8em;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(83, 0, 255, 1) 0%, rgba(231, 172, 204, 1) 100%);
+    padding: 15%;
+}
